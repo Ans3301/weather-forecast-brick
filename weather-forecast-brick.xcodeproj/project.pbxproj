@@ -58,13 +58,69 @@
 			children = (
 				E20E27622C63A9E900363815 /* AppDelegate.swift */,
 				E20E27642C63A9E900363815 /* SceneDelegate.swift */,
-				E20E27662C63A9E900363815 /* ViewController.swift */,
-				E20E27682C63A9E900363815 /* Main.storyboard */,
-				E20E276B2C63A9EB00363815 /* Assets.xcassets */,
-				E20E276D2C63A9EB00363815 /* LaunchScreen.storyboard */,
 				E20E27702C63A9EB00363815 /* Info.plist */,
+				E20E277B2C64CA2500363815 /* Model */,
+				E20E277A2C64CA1100363815 /* View */,
+				E20E27792C64C9FB00363815 /* Controller */,
+				E20E27782C64C9DA00363815 /* Resources */,
+				E20E27772C64C9A700363815 /* Extensions */,
+				E20E27762C64C96300363815 /* Helpers */,
 			);
 			path = "weather-forecast-brick";
+			sourceTree = "<group>";
+		};
+		E20E27762C64C96300363815 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E20E27772C64C9A700363815 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E20E27782C64C9DA00363815 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E20E276B2C63A9EB00363815 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E20E27792C64C9FB00363815 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E20E27662C63A9E900363815 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E20E277A2C64CA1100363815 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E20E277C2C64CA9800363815 /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E20E277B2C64CA2500363815 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E20E277C2C64CA9800363815 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E20E27682C63A9E900363815 /* Main.storyboard */,
+				E20E276D2C63A9EB00363815 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
