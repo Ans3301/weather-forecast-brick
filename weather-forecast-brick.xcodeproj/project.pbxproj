@@ -13,6 +13,10 @@
 		E20E276A2C63A9E900363815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E20E27692C63A9E900363815 /* Base */; };
 		E20E276C2C63A9EB00363815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20E276B2C63A9EB00363815 /* Assets.xcassets */; };
 		E20E276F2C63A9EB00363815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E20E276E2C63A9EB00363815 /* Base */; };
+		E20E277E2C64CE9A00363815 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E277D2C64CE9A00363815 /* Ubuntu-Light.ttf */; };
+		E20E27802C64CEC100363815 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E277F2C64CEC100363815 /* Ubuntu-Regular.ttf */; };
+		E20E27822C64CEF400363815 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */; };
+		E20E27842C64CF0B00363815 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E20E276B2C63A9EB00363815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20E276E2C63A9EB00363815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E20E27702C63A9EB00363815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20E277D2C64CE9A00363815 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		E20E277F2C64CEC100363815 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 		E20E27782C64C9DA00363815 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E20E27852C64CF2900363815 /* Fonts */,
 				E20E276B2C63A9EB00363815 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -121,6 +130,17 @@
 				E20E276D2C63A9EB00363815 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E20E27852C64CF2900363815 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E20E277D2C64CE9A00363815 /* Ubuntu-Light.ttf */,
+				E20E277F2C64CEC100363815 /* Ubuntu-Regular.ttf */,
+				E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */,
+				E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20E277E2C64CE9A00363815 /* Ubuntu-Light.ttf in Resources */,
 				E20E276C2C63A9EB00363815 /* Assets.xcassets in Resources */,
+				E20E27822C64CEF400363815 /* Ubuntu-Medium.ttf in Resources */,
 				E20E276F2C63A9EB00363815 /* Base in Resources */,
+				E20E27842C64CF0B00363815 /* Ubuntu-Bold.ttf in Resources */,
+				E20E27802C64CEC100363815 /* Ubuntu-Regular.ttf in Resources */,
 				E20E276A2C63A9E900363815 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
