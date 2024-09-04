@@ -18,6 +18,13 @@
 		E20E27822C64CEF400363815 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */; };
 		E20E27842C64CF0B00363815 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */; };
 		E20E27872C64D09F00363815 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E27862C64D09F00363815 /* UIColorExtension.swift */; };
+		E20E27892C661C9F00363815 /* ShadowedGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E27882C661C9E00363815 /* ShadowedGradientButton.swift */; };
+		E20E278B2C6A238900363815 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E278A2C6A238900363815 /* Weather.swift */; };
+		E22E7B002C7767C2005FB52E /* InfoAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7AFF2C7767C2005FB52E /* InfoAlertViewController.swift */; };
+		E22E7B022C78AD38005FB52E /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B012C78AD38005FB52E /* InfoLabel.swift */; };
+		E22E7B042C84A8B9005FB52E /* InfoAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B032C84A8B9005FB52E /* InfoAlertView.swift */; };
+		E22E7B062C88CC01005FB52E /* FetchWeatherFromAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B052C88CC01005FB52E /* FetchWeatherFromAPI.swift */; };
+		E22E7B082C88CC43005FB52E /* FetchCityAndCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B072C88CC43005FB52E /* FetchCityAndCountry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +41,13 @@
 		E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 		E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		E20E27862C64D09F00363815 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E20E27882C661C9E00363815 /* ShadowedGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowedGradientButton.swift; sourceTree = "<group>"; };
+		E20E278A2C6A238900363815 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E22E7AFF2C7767C2005FB52E /* InfoAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAlertViewController.swift; sourceTree = "<group>"; };
+		E22E7B012C78AD38005FB52E /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		E22E7B032C84A8B9005FB52E /* InfoAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAlertView.swift; sourceTree = "<group>"; };
+		E22E7B052C88CC01005FB52E /* FetchWeatherFromAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWeatherFromAPI.swift; sourceTree = "<group>"; };
+		E22E7B072C88CC43005FB52E /* FetchCityAndCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCityAndCountry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,8 @@
 		E20E27762C64C96300363815 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E22E7B052C88CC01005FB52E /* FetchWeatherFromAPI.swift */,
+				E22E7B072C88CC43005FB52E /* FetchCityAndCountry.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -107,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				E20E27662C63A9E900363815 /* ViewController.swift */,
+				E22E7AFF2C7767C2005FB52E /* InfoAlertViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -115,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				E20E277C2C64CA9800363815 /* Storyboards */,
+				E20E27882C661C9E00363815 /* ShadowedGradientButton.swift */,
+				E22E7B012C78AD38005FB52E /* InfoLabel.swift */,
+				E22E7B032C84A8B9005FB52E /* InfoAlertView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +142,7 @@
 		E20E277B2C64CA2500363815 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E20E278A2C6A238900363815 /* Weather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,8 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20E27672C63A9E900363815 /* ViewController.swift in Sources */,
+				E22E7B002C7767C2005FB52E /* InfoAlertViewController.swift in Sources */,
 				E20E27632C63A9E900363815 /* AppDelegate.swift in Sources */,
+				E22E7B042C84A8B9005FB52E /* InfoAlertView.swift in Sources */,
 				E20E27652C63A9E900363815 /* SceneDelegate.swift in Sources */,
+				E20E27892C661C9F00363815 /* ShadowedGradientButton.swift in Sources */,
+				E20E278B2C6A238900363815 /* Weather.swift in Sources */,
+				E22E7B082C88CC43005FB52E /* FetchCityAndCountry.swift in Sources */,
+				E22E7B022C78AD38005FB52E /* InfoLabel.swift in Sources */,
+				E22E7B062C88CC01005FB52E /* FetchWeatherFromAPI.swift in Sources */,
 				E20E27872C64D09F00363815 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +406,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "weather-forecast-brick/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we want to show the weather in your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -409,6 +438,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "weather-forecast-brick/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we want to show the weather in your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
