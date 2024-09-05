@@ -13,6 +13,18 @@
 		E20E276A2C63A9E900363815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E20E27692C63A9E900363815 /* Base */; };
 		E20E276C2C63A9EB00363815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E20E276B2C63A9EB00363815 /* Assets.xcassets */; };
 		E20E276F2C63A9EB00363815 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E20E276E2C63A9EB00363815 /* Base */; };
+		E20E277E2C64CE9A00363815 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E277D2C64CE9A00363815 /* Ubuntu-Light.ttf */; };
+		E20E27802C64CEC100363815 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E277F2C64CEC100363815 /* Ubuntu-Regular.ttf */; };
+		E20E27822C64CEF400363815 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */; };
+		E20E27842C64CF0B00363815 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */; };
+		E20E27872C64D09F00363815 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E27862C64D09F00363815 /* UIColorExtension.swift */; };
+		E20E27892C661C9F00363815 /* ShadowedGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E27882C661C9E00363815 /* ShadowedGradientButton.swift */; };
+		E20E278B2C6A238900363815 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E278A2C6A238900363815 /* Weather.swift */; };
+		E22E7B002C7767C2005FB52E /* InfoAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7AFF2C7767C2005FB52E /* InfoAlertViewController.swift */; };
+		E22E7B022C78AD38005FB52E /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B012C78AD38005FB52E /* InfoLabel.swift */; };
+		E22E7B042C84A8B9005FB52E /* InfoAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B032C84A8B9005FB52E /* InfoAlertView.swift */; };
+		E22E7B062C88CC01005FB52E /* FetchWeatherFromAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B052C88CC01005FB52E /* FetchWeatherFromAPI.swift */; };
+		E22E7B082C88CC43005FB52E /* FetchCityAndCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22E7B072C88CC43005FB52E /* FetchCityAndCountry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		E20E276B2C63A9EB00363815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E20E276E2C63A9EB00363815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E20E27702C63A9EB00363815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20E277D2C64CE9A00363815 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		E20E277F2C64CEC100363815 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		E20E27862C64D09F00363815 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E20E27882C661C9E00363815 /* ShadowedGradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowedGradientButton.swift; sourceTree = "<group>"; };
+		E20E278A2C6A238900363815 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		E22E7AFF2C7767C2005FB52E /* InfoAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAlertViewController.swift; sourceTree = "<group>"; };
+		E22E7B012C78AD38005FB52E /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
+		E22E7B032C84A8B9005FB52E /* InfoAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAlertView.swift; sourceTree = "<group>"; };
+		E22E7B052C88CC01005FB52E /* FetchWeatherFromAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWeatherFromAPI.swift; sourceTree = "<group>"; };
+		E22E7B072C88CC43005FB52E /* FetchCityAndCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCityAndCountry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +82,89 @@
 			children = (
 				E20E27622C63A9E900363815 /* AppDelegate.swift */,
 				E20E27642C63A9E900363815 /* SceneDelegate.swift */,
-				E20E27662C63A9E900363815 /* ViewController.swift */,
-				E20E27682C63A9E900363815 /* Main.storyboard */,
-				E20E276B2C63A9EB00363815 /* Assets.xcassets */,
-				E20E276D2C63A9EB00363815 /* LaunchScreen.storyboard */,
 				E20E27702C63A9EB00363815 /* Info.plist */,
+				E20E277B2C64CA2500363815 /* Model */,
+				E20E277A2C64CA1100363815 /* View */,
+				E20E27792C64C9FB00363815 /* Controller */,
+				E20E27782C64C9DA00363815 /* Resources */,
+				E20E27772C64C9A700363815 /* Extensions */,
+				E20E27762C64C96300363815 /* Helpers */,
 			);
 			path = "weather-forecast-brick";
+			sourceTree = "<group>";
+		};
+		E20E27762C64C96300363815 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E22E7B052C88CC01005FB52E /* FetchWeatherFromAPI.swift */,
+				E22E7B072C88CC43005FB52E /* FetchCityAndCountry.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E20E27772C64C9A700363815 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E20E27862C64D09F00363815 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E20E27782C64C9DA00363815 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E20E27852C64CF2900363815 /* Fonts */,
+				E20E276B2C63A9EB00363815 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E20E27792C64C9FB00363815 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E20E27662C63A9E900363815 /* ViewController.swift */,
+				E22E7AFF2C7767C2005FB52E /* InfoAlertViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E20E277A2C64CA1100363815 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E20E277C2C64CA9800363815 /* Storyboards */,
+				E20E27882C661C9E00363815 /* ShadowedGradientButton.swift */,
+				E22E7B012C78AD38005FB52E /* InfoLabel.swift */,
+				E22E7B032C84A8B9005FB52E /* InfoAlertView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E20E277B2C64CA2500363815 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E20E278A2C6A238900363815 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E20E277C2C64CA9800363815 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E20E27682C63A9E900363815 /* Main.storyboard */,
+				E20E276D2C63A9EB00363815 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E20E27852C64CF2900363815 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E20E277D2C64CE9A00363815 /* Ubuntu-Light.ttf */,
+				E20E277F2C64CEC100363815 /* Ubuntu-Regular.ttf */,
+				E20E27812C64CEF400363815 /* Ubuntu-Medium.ttf */,
+				E20E27832C64CF0B00363815 /* Ubuntu-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +225,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20E277E2C64CE9A00363815 /* Ubuntu-Light.ttf in Resources */,
 				E20E276C2C63A9EB00363815 /* Assets.xcassets in Resources */,
+				E20E27822C64CEF400363815 /* Ubuntu-Medium.ttf in Resources */,
 				E20E276F2C63A9EB00363815 /* Base in Resources */,
+				E20E27842C64CF0B00363815 /* Ubuntu-Bold.ttf in Resources */,
+				E20E27802C64CEC100363815 /* Ubuntu-Regular.ttf in Resources */,
 				E20E276A2C63A9E900363815 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +243,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E20E27672C63A9E900363815 /* ViewController.swift in Sources */,
+				E22E7B002C7767C2005FB52E /* InfoAlertViewController.swift in Sources */,
 				E20E27632C63A9E900363815 /* AppDelegate.swift in Sources */,
+				E22E7B042C84A8B9005FB52E /* InfoAlertView.swift in Sources */,
 				E20E27652C63A9E900363815 /* SceneDelegate.swift in Sources */,
+				E20E27892C661C9F00363815 /* ShadowedGradientButton.swift in Sources */,
+				E20E278B2C6A238900363815 /* Weather.swift in Sources */,
+				E22E7B082C88CC43005FB52E /* FetchCityAndCountry.swift in Sources */,
+				E22E7B022C78AD38005FB52E /* InfoLabel.swift in Sources */,
+				E22E7B062C88CC01005FB52E /* FetchWeatherFromAPI.swift in Sources */,
+				E20E27872C64D09F00363815 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +406,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "weather-forecast-brick/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we want to show the weather in your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +419,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.weather-forecast-brick";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,11 +438,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "weather-forecast-brick/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "we want to show the weather in your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +451,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.weather-forecast-brick";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
