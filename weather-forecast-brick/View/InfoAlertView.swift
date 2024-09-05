@@ -26,8 +26,6 @@ final class InfoAlertView: UIView {
         return label
     }()
     
-    private var infoLabels = [InfoLabel(), InfoLabel(), InfoLabel(), InfoLabel(), InfoLabel(), InfoLabel(), InfoLabel()]
-    
     private lazy var hideButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -67,13 +65,13 @@ final class InfoAlertView: UIView {
     }
     
     private func addShadow() {
-        self.layer.masksToBounds = false
-        self.layer.cornerRadius = 14
-        self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: 14).cgPath
-        self.layer.shadowColor = UIColor(hex: "#000000").cgColor
-        self.layer.shadowOffset = CGSize(width: 0, height: 4)
-        self.layer.shadowOpacity = 0.25
-        self.layer.shadowRadius = 2
+        layer.masksToBounds = false
+        layer.cornerRadius = 14
+        layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: 14).cgPath
+        layer.shadowColor = UIColor(hex: "#000000").cgColor
+        layer.shadowOffset = CGSize(width: 0, height: 4)
+        layer.shadowOpacity = 0.25
+        layer.shadowRadius = 2
     }
     
     private func setupInfoView() {
@@ -99,6 +97,12 @@ final class InfoAlertView: UIView {
     }
     
     private func setupStackView() {
+        var infoLabels: [InfoLabel] = []
+        
+        for index in 0...6 {
+            infoLabels.append(InfoLabel())
+        }
+        
         infoLabels[0].text = "Brick is wet - raining"
         infoLabels[1].text = "Brick is dry - sunny"
         infoLabels[2].text = "Brick is hard to see - fog"
