@@ -77,6 +77,8 @@ final class ViewController: UIViewController {
     private func setupBackgroundImageView() {
         view.addSubview(backgroundImageView)
 
+        backgroundImageView.accessibilityIdentifier = "backgroundImageView"
+
         NSLayoutConstraint.activate([
             backgroundImageView.topAnchor.constraint(equalTo: view.topAnchor),
             backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
@@ -87,6 +89,8 @@ final class ViewController: UIViewController {
 
     private func setupTemperatureLabel() {
         view.addSubview(temperatureLabel)
+
+        temperatureLabel.accessibilityIdentifier = "temperatureLabel"
 
         NSLayoutConstraint.activate([
             temperatureLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 461),
@@ -99,6 +103,8 @@ final class ViewController: UIViewController {
     private func setupWeatherLabel() {
         view.addSubview(weatherLabel)
 
+        weatherLabel.accessibilityIdentifier = "weatherLabel"
+
         NSLayoutConstraint.activate([
             weatherLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 558),
             weatherLabel.widthAnchor.constraint(equalToConstant: 95),
@@ -110,6 +116,8 @@ final class ViewController: UIViewController {
     private func setupLocationLabel() {
         view.addSubview(locationLabel)
 
+        locationLabel.accessibilityIdentifier = "locationLabel"
+
         NSLayoutConstraint.activate([
             locationLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -81),
             locationLabel.widthAnchor.constraint(equalToConstant: 375),
@@ -120,6 +128,8 @@ final class ViewController: UIViewController {
 
     private func setupInfoButton() {
         view.addSubview(infoButton)
+
+        infoButton.accessibilityIdentifier = "infoButton"
 
         NSLayoutConstraint.activate([
             infoButton.bottomAnchor.constraint(equalTo: view.bottomAnchor),
@@ -197,6 +207,8 @@ extension ViewController: CLLocationManagerDelegate {
 
             view.addSubview(stoneImageView)
 
+            stoneImageView.accessibilityIdentifier = "stoneImageView"
+
             stoneImageView.isUserInteractionEnabled = true
             let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(_:)))
             stoneImageView.addGestureRecognizer(panGesture)
@@ -236,6 +248,8 @@ extension ViewController: CLLocationManagerDelegate {
         stoneImageView.translatesAutoresizingMaskIntoConstraints = false
 
         view.addSubview(stoneImageView)
+
+        stoneImageView.accessibilityIdentifier = "stoneImageView"
 
         stoneImageView.isUserInteractionEnabled = true
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(_:)))
