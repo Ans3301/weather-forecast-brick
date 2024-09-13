@@ -99,7 +99,7 @@ final class InfoAlertView: UIView {
     private func setupStackView() {
         var infoLabels: [InfoLabel] = []
         
-        for index in 0...6 {
+        for _ in 0...6 {
             infoLabels.append(InfoLabel())
         }
         
