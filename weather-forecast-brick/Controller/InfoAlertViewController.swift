@@ -46,6 +46,8 @@ final class InfoAlertViewController: UIViewController {
         
         view.addSubview(infoAlertView)
         
+        infoAlertView.accessibilityIdentifier = "infoAlertView"
+        
         NSLayoutConstraint.activate([
             infoAlertView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             infoAlertView.topAnchor.constraint(equalTo: view.topAnchor, constant: 220),
