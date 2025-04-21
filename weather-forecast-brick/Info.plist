@@ -14,6 +14,8 @@
 		<string>Ubuntu-Medium.ttf</string>
 		<string>Ubuntu-Bold.ttf</string>
 	</array>
+	<key>WEATHER_API_KEY</key>
+	<string>$(WEATHER_API_KEY)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

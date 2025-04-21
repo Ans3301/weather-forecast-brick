@@ -8,9 +8,14 @@
 import Foundation
 
 func fetchWeatherFromAPI(lat: Double, lon: Double) async throws -> WeatherData {
-    let apiKey = "335cad2858dc07d36bab467c159f7dd6"
+    guard let apiKey = Bundle.main.object(forInfoDictionaryKey: "WEATHER_API_KEY") as? String else {
+        throw URLError(.badURL)
+    }
+
     let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(lat)&lon=\(lon)&appid=\(apiKey)&units=metric"
-    let url = URL(string: urlString)!
+    guard let url = URL(string: urlString) else {
+        throw URLError(.badURL)
+    }
 
     let (data, _) = try await URLSession.shared.data(from: url)
 
